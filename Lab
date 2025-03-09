@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Віртуальні хакатони</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        nav { background: #333; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        .container { padding: 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#competitions">Змагання</a>
+        <a href="#projects">Мої проєкти</a>
+        <a href="#ranking">Рейтинг</a>
+    </nav>
+    
+    <div id="competitions" class="container">
+        <h2>Змагання</h2>
+        <p>Список активних та майбутніх хакатонів:</p>
+        <ul>
+            <li><strong>AI Challenge</strong> - дедлайн: 20.03.2025</li>
+            <li><strong>Web Dev Hackathon</strong> - дедлайн: 05.04.2025</li>
+        </ul>
+    </div>
+    
+    <div id="projects" class="container">
+        <h2>Мої проєкти</h2>
+        <p>Керуйте своїми заявками та створюйте нові проєкти.</p>
+        <button>Створити проєкт</button>
+    </div>
+    
+    <div id="ranking" class="container">
+        <h2>Рейтинг</h2>
+        <p>Лідери за кількістю виграних змагань:</p>
+        <ol>
+            <li>Іван Петренко - 1200 балів</li>
+            <li>Марія Іванова - 1100 балів</li>
+            <li>Олександр Коваль - 1050 балів</li>
+        </ol>
+    </div>
+</body>
+</html>
